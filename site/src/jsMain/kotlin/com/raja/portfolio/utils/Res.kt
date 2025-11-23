@@ -19,5 +19,6 @@ object Res
         const val KOTLIN_CMP = "kotlin.png"
         const val WEB = "web.png"
         const val SERVER = "server.png"
+        const val EXTERNAL_LINK = "external_link.svg"
     }
 }

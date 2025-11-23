@@ -3,6 +3,7 @@ package com.raja.portfolio.pages
 import androidx.compose.runtime.*
 import com.raja.portfolio.sections.AboutSection
 import com.raja.portfolio.sections.MainSection
+import com.raja.portfolio.sections.PortfolioSection
 import com.raja.portfolio.sections.ServiceSection
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Box
@@ -27,6 +28,8 @@ fun HomePage() {
         AboutSection()
 
         ServiceSection()
+
+        PortfolioSection()
     }
 }
 
